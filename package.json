@@ -12,6 +12,8 @@
     "@types/react-dom": "^16.9.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.3",
+    "react-flexbox-grid": "^2.1.2",
     "react-scripts": "3.4.1",
     "typescript": "^3.7.5"
   },

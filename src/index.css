@@ -1,5 +1,7 @@
+@import '~milligram/dist/milligram.min.css';
+
 body {
-  margin: 0;
+  margin: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +12,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button-black:active {
+  color: inherit;
+  background-color: inherit;
+  border-color: inherit;
+}
+
+.button-black:hover {
+  background-color: black;
+}
+
+.button-black {
+  background-color: white;
+  border-color: black;
+  color: black;
+  margin-top: 10px;
 }
